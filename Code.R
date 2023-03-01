@@ -1,3 +1,8 @@
+
+#The data set can also be accessed in the package by running:
+
+data(mauve_bbone)
+
 bbone_file <- system.file('extdata/barto.backbone', package = 'genoPlotR')
 bbone <- read_mauve_backbone(bbone_file, ref=2, filter_low=10000)
 names <- c("B_bacilliformis", "B_grahamii", "B_henselae", "B_quintana")
