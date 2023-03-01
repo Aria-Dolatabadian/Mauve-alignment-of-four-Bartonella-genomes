@@ -1,4 +1,8 @@
 
+library(ade4)
+library(grid)
+library(genoPlotR)
+
 #The data set can also be accessed in the package by running:
 
 data(mauve_bbone)
